@@ -1,0 +1,21 @@
+mat-grid-tile {
+    color: rgb(255, 255, 255);
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 128px;
+}
+
+mat-grid-tile-header, mat-grid-tile-footer{
+    font-family: 'Ibarra Real Nova', serif;
+    display: flex;
+    justify-content: center;
+    font-size: 24px;
+}
+
+mat-grid-tile-footer{
+    font-size: 24px;
+    flex-direction: column;
+}
+
+mat-grid-tile-footer span{
+    margin-top: 10px;
+}

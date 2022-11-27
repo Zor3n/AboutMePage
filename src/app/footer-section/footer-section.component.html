@@ -1,0 +1,50 @@
+<mat-grid-list cols="3" gutterSize="0" rowHeight="400px">
+    <mat-grid-tile
+        [colspan]="1"
+        [rowspan]="1"
+        [style.background-color]="'#B51249'">
+            ¡Final! :D
+    </mat-grid-tile>
+    <mat-grid-tile
+        id="contact-info"
+        [colspan]="2"
+        [rowspan]="1"
+        [style.background-color]="'#B51229'">
+            <div>
+                Actualmente busco oportunidades de trabajo.<br>
+                Si quieres conocerme mejor 
+                puedes contactar conmigo aquí:
+                <br>
+                <br>
+                <span class="contact-text">kami.9rrz2@simplelogin.co</span>
+                <br>
+                <br>
+                Y así te podré enviar una HV(o CV) con más información. :D
+                <br>
+                <br>
+                Tambien tengo <span class="contact-text"><a href="https://github.com/Zor3n?tab=repositories">GitHub</a></span> con algunos projectos que he hecho.
+                <br>
+                <br>
+            </div>
+    </mat-grid-tile>
+</mat-grid-list>
+<div class="last-section">
+    <p>Icons credits</p>
+    <div class="icon-list">
+        <p *ngFor="let skill of skills">
+            <a href="{{ skill.credits.name_link }}" target="_blank" rel="noopener noreferrer">{{ skill.credits.name_text }}</a>
+            
+        </p> 
+        <p *ngFor="let other of others">
+            <a href="{{ other.credits.name_link }}" target="_blank" rel="noopener noreferrer">{{ other.credits.name_text }}</a>
+        </p>
+    </div>
+    <p>Icons by 
+        <a href="https://iconscout.com/contributors/icon-mafia">Icon Mafia</a>
+        and
+        <a href="https://iconscout.com/contributors/icon-54" target="_blank">Icon 54</a>
+        on
+        <a href="https://iconscout.com">IconScout</a>
+    </p>
+    <p>Página hecha con Angular:Noviembre:2022</p>
+</div>

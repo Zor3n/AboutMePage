@@ -1,0 +1,54 @@
+mat-grid-tile{
+    border: white solid 2px;
+    overflow: auto;
+}
+
+#main-grid-img{
+    border: none;
+    color: white;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 128px;
+}
+
+#main-grid-text{
+    color: white;
+    display: flex;
+}
+
+#main-grid-text div{
+    flex: auto;
+    align-self: flex-start;
+    margin: 10px;
+}
+
+#main-grid-text div p{
+    margin: 10px;
+    padding: 10px;
+}
+
+#main-grid-text div p:first-child{
+    font-family: 'Ibarra Real Nova', serif;
+    line-height: normal;
+    font-size: 32px;
+}
+
+#main-grid-text div p:last-child{
+    font-family: 'Manrope', sans-serif;
+    line-height: normal;
+    font-size: 20px;
+}
+
+.container{
+    background-color: #242729;
+    padding: 100px 100px;
+}
+
+.main-img{
+    display: block;
+    max-width: 100%;
+}
+
+.colored-text{
+    color: #b86581; 
+    font-weight: 500;
+}

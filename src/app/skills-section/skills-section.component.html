@@ -1,0 +1,45 @@
+<div class="container">
+  <hr />
+  <div>
+    <h2>Habilidades</h2>
+    <mat-grid-list cols="3" rowHeight="400px" gutterSize="30px">
+        <mat-grid-tile [rowspan]="1" *ngFor="let skill of skills">
+          <mat-card>
+            <mat-card-header>
+              <mat-card-title>{{ skill.name }}</mat-card-title>
+            </mat-card-header>
+            <img
+              mat-card-image
+              class="card-img"
+              src="{{ skill.img }}"
+              alt="{{ skill.altImg }}"
+            />
+          </mat-card>
+        </mat-grid-tile>
+      </mat-grid-list>
+      <p class="skills-end-text">Esos son los lenguajes que estudié en la universidad, así que me siento seguro en ellos.</p>
+    <h3>
+      Además, he estado practicando con otros lenguajes por mi cuenta. He hecho algunos
+      pequeños proyectos personales con:
+    </h3>
+    <mat-grid-list
+      class="skills-grid"
+      cols="6"
+      rowHeight="320px"
+      gutterSize="30px"
+    >
+      <mat-grid-tile [rowspan]="1" *ngFor="let other of others">
+        <mat-card>
+          <img mat-card-image class="card-img" src="{{ other.img }}" alt="{{ other.altImg }}" />
+          <mat-card-content>
+            <p>
+              {{ other.name }}
+            </p>
+          </mat-card-content>
+        </mat-card>
+      </mat-grid-tile>
+    </mat-grid-list> 
+    <p class="skills-last-text">Aunque solo han sido proyectos personales para trabajar con el lenguaje, creo que pude adaptarme sin problemas con tiempo y la documentación oficial.</p>
+    <p class="skills-last-text">Estoy siempre abierto a aprender nuevas tecnologías si es necesario.</p>
+  </div>
+</div>

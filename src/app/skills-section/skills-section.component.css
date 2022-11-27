@@ -1,0 +1,74 @@
+mat-grid-tile{
+    display: flex;
+    flex-wrap: wrap;
+    max-height: 300px;
+}
+
+mat-card{
+    align-self: flex-start;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 260px;
+    background-color: #5c4482;
+    font-family: 'JetBrains Mono', monospace;
+}
+
+.container{
+    background-color: #242729;
+    color: whitesmoke;
+    padding: 10px 100px 100px 100px;
+}
+
+.container hr{
+    border: none;
+    border-top: 1px solid #fff;
+    color: #fff;
+    background-color: #fff;
+    height: 1px;
+    width: 100%;
+}
+
+.container div h2{
+    font-size: 40px;
+    font-family: 'Ibarra Real Nova', serif;
+    font-weight: 500;
+    margin: 60px 25px;
+    text-align: center;
+    line-height: normal;
+}
+
+.container div h3{
+    font-size: 28px;
+    font-family: 'Ibarra Real Nova', serif;
+    font-weight: 500;
+    margin: 120px 25px;
+    text-align: center;
+    line-height: normal;
+}
+
+.card-img{
+    padding: 10px;
+    display: block;
+    max-width: 100%;
+}
+
+.skills-end-text{
+    text-align: center;
+    font-size: 20px;
+    font-family: 'JetBrains Mono', monospace;
+    text-decoration: underline;
+    line-height: normal;
+}
+
+.skills-last-text{
+    text-align: center;
+    font-size: 20px;
+    font-family: 'JetBrains Mono', monospace;
+    line-height: normal;
+}
+
+.skills-grid{
+    padding-bottom: 120px;
+}
